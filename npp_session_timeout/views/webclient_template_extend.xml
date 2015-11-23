@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="session_timeout_templates" name="npp_session_timeout templates" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <!--<link rel="stylesheet" type="text/css" href="/npp_session_timeout/static/src/css/npp_sale.css" />-->
+                <script type="text/javascript" src="/npp_session_timeout/static/src/js/chrome_extend.js"></script>
+            </xpath>
+        </template>
+    </data>
+</openerp>
